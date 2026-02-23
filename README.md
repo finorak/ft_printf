@@ -10,10 +10,10 @@ act as the original print there are currently only those flags (cspduxX%) that a
 
 # Instructions
 To use this *ft_printf* you just have to follow the steps bellow:
-	- you need all of this project's files.
-	- run `make` on your terminal (we assume your current directory is the directory that contain all the ft_printf files)
-	- include the *ft_printf.h* header into your project
-	- here we have a concrete example, create a simple file named *main.c* and put the following code in it:
+- you need all of this project's files.
+- run `make` on your terminal (we assume your current directory is the directory that contain all the ft_printf files)
+- include the *ft_printf.h* header into your project
+- here we have a concrete example, create a simple file named *main.c* and put the following code in it:
 	```
 	#include "ft_printf.h"
 
@@ -23,7 +23,7 @@ To use this *ft_printf* you just have to follow the steps bellow:
 		return (0);
 	}
 	```
-	- compile with the following flag : `cc -Wall -Wextra -Werror main.c -L. -lftprintf` and run the executable to see the result.
+- compile with the following flag : `cc -Wall -Wextra -Werror main.c -L. -lftprintf` and run the executable to see the result.
 
 # Ressources
 - [Ctutor](https://pythontutor.com/c.html#) To view the 
